@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 export const WhatGPT3 = () => {
-  return (
-    <div>WhatGPT3</div>
-  )
-}
+  return <div>WhatGPT3</div>;
+};
+
+export default WhatGPT3;
