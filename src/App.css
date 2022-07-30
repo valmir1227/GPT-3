@@ -3,11 +3,11 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
   background: var(--color-bg);
+  overflow-x: hidden;
 }
 
 a {
