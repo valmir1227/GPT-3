@@ -66,17 +66,6 @@ a {
   margin: 4rem 6rem;
 }
 
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
 @media screen and (max-width: 700px) {
   .section__padding {
     padding: 4rem;
@@ -88,12 +77,11 @@ a {
 }
 
 @media screen and (max-width: 550px) {
-    .section__padding {
-      padding: 4rem 2rem;
-    }
-  
-    .section__margin {
-      margin: 4rem 2rem;
-    }
+  .section__padding {
+    padding: 4rem 2rem;
   }
-  
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+}
