@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background: var(--color-bg);
   overflow-x: hidden;

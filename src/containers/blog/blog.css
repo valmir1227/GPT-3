@@ -11,9 +11,11 @@
 
 .gpt3__blog-heading h1 {
   font-size: 62px;
+  text-align: left;
   line-height: 75px;
   font-family: var(--font-family);
   font-weight: 800;
+  margin-left: 4rem;
 }
 
 .gpt3__blog-container {
