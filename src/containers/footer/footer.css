@@ -34,6 +34,11 @@
   cursor: pointer;
 }
 
+.gpt3__footer-btn:hover {
+  background: var(--gradient-text);
+  border: 1px solid;
+}
+
 .gpt3__footer-btn p {
   font-size: 18px;
   font-family: var(--font-family);
@@ -99,6 +104,14 @@
 
   margin: 0.5rem 0;
   cursor: pointer;
+}
+
+.gpt3__footer-links_div p:hover {
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-backdrop-clop: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .gpt3__footer-copyright {

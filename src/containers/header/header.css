@@ -72,6 +72,13 @@
 
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+
+  transition: all 0.3s;
+}
+
+.gpt3__header-content__input button:hover {
+  background: var(--color-subtext);
+  border: 2px solid var(--color-subtext);
 }
 
 .gpt3__header-content__people {
