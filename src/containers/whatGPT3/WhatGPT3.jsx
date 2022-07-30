@@ -1,11 +1,25 @@
 import React from "react";
 import Feature from "../../components/feature/Feature";
+import { useRef } from "react";
 
+import { useInView } from "framer-motion";
 import "./whatGPT3.css";
 
 const WhatGPT3 = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref);
+
   return (
-    <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
+    <div
+      ref={ref}
+      style={{
+        transform: isInView ? "none" : "translateX(100px)",
+        opacity: isInView ? 1 : 0,
+        transition: "all 0.7s",
+      }}
+      className="gpt3__whatgpt3 section__margin"
+      id="wgpt3"
+    >
       <div className="gpt3__whatgpt3-feature">
         <Feature
           title="What is GPT-3"

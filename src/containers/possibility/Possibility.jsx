@@ -1,10 +1,25 @@
 import React from "react";
+import { useRef } from "react";
+import { useInView } from "framer-motion";
+
 import possibilityImage from "../../assets/possibility.png";
 import "./possibility.css";
 
 const Possibility = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref);
+
   return (
-    <div className="gpt3__possibility section__padding" id="possibility">
+    <div
+      ref={ref}
+      style={{
+        transform: isInView ? "none" : "translateX(-100px)",
+        opacity: isInView ? 1 : 0,
+        transition: "all 0.7s",
+      }}
+      className="gpt3__possibility section__padding"
+      id="possibility"
+    >
       <div className="gpt3__possibility-image">
         <img src={possibilityImage} alt="possibility" />
       </div>
