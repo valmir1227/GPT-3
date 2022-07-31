@@ -1,10 +1,4 @@
-# GPT-3
+# GPT3 Open AI
 
-## 📂 Folder Structure
+<img src="https://github.com/valmir1227/GPT-3/blob/master/.github/home.png?raw=true" width="600"/>
 
-### 📁 SRC 
-    - 📁 components
-    Index.js --> Exports all componets by defalt, so they can all be exported at once.
-    - 📁 containers
-    - 🟨 App.js
-    - 🟨 index.js

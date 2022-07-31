@@ -6,7 +6,7 @@ import "./cta.css";
 
 const Cta = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref);
+  const isInView = useInView(ref, { once: true });
 
   return (
     <div

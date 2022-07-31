@@ -8,7 +8,7 @@ import "./brand.css";
 
 const Brand = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref);
+  const isInView = useInView(ref, { once: true });
 
   return (
     <div

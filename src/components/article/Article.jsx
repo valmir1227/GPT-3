@@ -6,7 +6,7 @@ import { useInView } from "framer-motion";
 
 const Article = ({ imgUrl, date, text }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref);
+  const isInView = useInView(ref, { once: true });
 
   return (
     <div

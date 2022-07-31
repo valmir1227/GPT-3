@@ -7,7 +7,7 @@ import "./whatGPT3.css";
 
 const WhatGPT3 = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref);
+  const isInView = useInView(ref, { once: true });
 
   return (
     <div
