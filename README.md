@@ -1,4 +1,10 @@
 # GPT3 Open AI
 
-<img src="https://github.com/valmir1227/GPT-3/blob/master/.github/home.png?raw=true" width="600"/>
+  🟦 ReactJS
+  ⬛ Framer Motion
+  🟧 HTML
+  🟦 CSS
+
+<img src="https://github.com/valmir1227/GPT-3/blob/master/.github/fullGPT3-capture.png?raw=true"/>
+
 
