@@ -38,8 +38,17 @@ const Footer = () => {
         <div className="gpt3__footer-links_div">
           <h4>Get in touch</h4>
           <p>Crechterwoord K12 182 DK Alknjkcb</p>
-          <p>085-132567</p>
-          <p>info@payme.net</p>
+          <p>
+            <a href="tel:+5533991113641">(33) 99111-3641</a>
+          </p>
+          <p>
+            <a
+              target="_blanck"
+              href="https://www.instagram.com/valmir_almeida__/"
+            >
+              @Valmir Almeida
+            </a>
+          </p>
         </div>
       </div>
 

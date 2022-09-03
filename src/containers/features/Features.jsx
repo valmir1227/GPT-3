@@ -6,20 +6,20 @@ import "./features.css";
 
 const featuresData = [
   {
-    title: "Improving end distrusts instantly",
-    text: "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.",
+    title: "Lorem ipsum dolor sit amet",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisc, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
   },
   {
-    title: "Become the tended active",
-    text: "Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.",
+    title: "Lorem ipsum dolor sit",
+    text: "Lorem ipsum dolor sit amet, consectetur adipis et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci commodo consequat",
   },
   {
-    title: "Message or am nothing",
-    text: "Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.",
+    title: "Lorem ipsum dolor sit",
+    text: "Lorem ipsum dolor sit amet, consectetur adipis Ut enim ad minim veniam, quis nostrud exercitati.",
   },
   {
-    title: "Really boy law county",
-    text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..",
+    title: "Lorem ipsum dolor sit",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc.",
   },
 ];
 

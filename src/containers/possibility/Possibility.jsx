@@ -30,10 +30,8 @@ const Possibility = () => {
           beyond your imagination
         </h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. Not
-          thoughts all exercise blessing. Indulgence way everything joy
-          alteration boisterous the attachment. Party we years to order allow
-          asked of.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+          assumenda, quia repellendus harum qui nihil saepe.
         </p>
         <h4>Request Early Access to Get Started</h4>
       </div>
